@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --color-primary:#0a0a23;
+    --color-secondary:  #1b1b32;
+    --color-btn: #3b3b4f;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
+    color: white;
+}
+
+.container
+{
+  padding: 0rem 1rem;
+}
+
+
+
+/** links **/
+.link
+{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0.5rem ;
+}
+.link-primary {
+    display: inline-block;
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--color-btn);
+    border: 1px solid var(--color-primary);
+    color: #fff; 
+  }
+  .link-secondary {
+    display: inline-block;
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary); 
+  }
+/** lists **/
+
+.list-non-bullet
+{
+    list-style: none;
+
+}
+
+.list-item-inline
+{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** nav **/
+.navigation
+{
+    background-color: var(--color-primary);
+    color: white;
+    padding: 1rem;
+    border-radius: 0  0 0 2rem ;
+}
+.navigation .link{
+    color: white;
+}
+.navigation .nav-brand
+{
+   font-weight: bold;
+}
+.navigation .list-non-bullet
+{
+    text-align: right;
+}
+
+.navigation .link-active
+{
+    font-weight: bold;
+}
+
+
+/** Header**/
+
+
+.hero
+
+{
+ padding: 2rem;
+}
+
+.hero .hero-image
+{
+    max-width: 80%;
+    width: 550px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading
+{
+  color: red;
+}
+
+.hero .heading-inverted
+{
+    color: var(--color-primary);
+}
+
+.hero h1
+{
+    text-align: center;
+    
+    
+}
+/** Section**/
+.section
+{
+    color: #0a0a23;
+    border: 1px solid burlywood;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 1rem auto;
+}
+.container-centre
+{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+.section:hover
+{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: box-shadow 0.3s ease-in-out;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 1.5rem;
+}
+
+/** Footers**/
+
+.footer
+{
+background-color: var(--color-primary);
+padding: 2rem 1rem;
+text-align: center;
+color: white;
+border-radius: 0 2rem 0 0;
+}
+.footer .link
+{
+    color: white;
+}
+.footer ul
+{
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header
+{
+    font-weight: bold;
+    font-size: large;
+}
+/* Blogs */
+.blog
+{
+    color: var(--color-secondary);
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+.hr
+{
+    text-align: center;
+    
+
+}
